@@ -41,7 +41,9 @@ body{
 }
 
 .navbar .nav-link.active,
-.navbar .nav-link:where(:hover, :focus, :active){
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link:active{
   color:#FDB615 !important;
 }
 .navbar-nav .dropdown-menu{
@@ -57,7 +59,8 @@ body{
   white-space: break-spaces;
   font-weight: 500;
 }
-.navbar-nav .dropdown-menu .dropdown-item.active, .dropdown-item:active{
+.navbar-nav .dropdown-menu .dropdown-item.active,
+.dropdown-item:active{
   color:#FDB615 !important;
   background-color: transparent;
 }
@@ -80,7 +83,6 @@ body{
     border:0;
     padding: 10px;
   }
-  
 }
 
 @media screen and (min-width:992px){
@@ -95,25 +97,25 @@ body{
     text-decoration:none;
     font-weight:bold;
   }
-  .topHeader .info-bar  a:where(:hover, :focus:, :active){
+  .topHeader .info-bar  a:hover,
+  .topHeader .info-bar  a:focus,
+  .topHeader .info-bar  a:active{
     color:#FDB615;
   }
-  .topHeader .info-bar a:before{
+  .topHeader .info-bar a::before{
     content: '';
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     margin-right: 5px;
     background-position: center center;
-  
   }
-  .topHeader .info-bar a.wa:before {
+  .topHeader .info-bar a.wa::before {
     background-image: url('./components/img/whatsapp.svg');
     width:24px;
     height:24px;
   }
-  
-  .topHeader .info-bar a.phone-number:before {
+  .topHeader .info-bar a.phone-number::before {
     background-image: url('./components/img/mobile.svg');
     width: 27px;
     height: 27px;
@@ -123,7 +125,7 @@ body{
     padding: 10px 40px!important;
   }
 
-  .topHeader .info-bar a.email:before {
+  .topHeader .info-bar a.email::before {
     background-image: url('./components/img/envelope.svg');
     width: 22px;
     height: 20px;
@@ -161,7 +163,9 @@ main{
     display: block;
 }
 
-.main-btn:where(:hover, :focus, :active){
+.main-btn:hover,
+.main-btn:focus,
+.main-btn:active{
   background-color: white;
   border: 1px solid #fdb614;
   color:#fdb614 !important;
@@ -179,14 +183,16 @@ main{
   text-decoration:none;
 }
 
-.ghiga-info a:where(:hover, :focus, :active) {
+.ghiga-info a:hover,
+.ghiga-info a:focus,
+.ghiga-info a:active  {
   text-decoration:underline;
 }
 
-.ghiga-cell:before,
-.ghiga-wa:before,
-.ghiga-mail:before,
-.ghiga-map:before{
+.ghiga-cell::before,
+.ghiga-wa::before,
+.ghiga-mail::before,
+.ghiga-map::before{
   content: '';
   background-size: contain;
   background-repeat: no-repeat;
@@ -197,22 +203,22 @@ main{
   vertical-align: sub;
   margin-right:26px;
 }
-.ghiga-wa:before{
+.ghiga-wa::before{
   background-image: url('./components/img/whatsapp.svg');
   width: 26px;
   height: 26px;
 }
-.ghiga-cell:before{
+.ghiga-cell::before{
   background-image: url('./components/img/mobile-alt.svg');
   width:24px;
   height:24px;
 }
-.ghiga-mail:before{
+.ghiga-mail::before{
   background-image: url('./components/img/envelope.svg');
   width:22px;
   height:22px;
 }
-.ghiga-map:before{
+.ghiga-map::before{
   background-image: url('./components/img/map-marked-alt.svg');
   width:24px;
   height:24px;
@@ -227,7 +233,6 @@ main{
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0,0,0,.2);
   border-radius: 5px;
-  
 }
 /* Footer  */
 footer{
@@ -271,7 +276,7 @@ footer .iubenda-cs-preferences-link{
   flex-direction:column;
 }
 form input#Name,
-form input#Email, 
+form input#Email,
 form input#Oggetto,
 form textarea{
   display:block;
@@ -367,8 +372,6 @@ form input[type=checkbox]{
     order:0;
   }
 }
-
-
 
 .main{
   background:#fdb614;

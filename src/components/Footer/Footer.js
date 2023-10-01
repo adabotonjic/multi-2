@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Figure from 'react-bootstrap/Figure';
-import footerLogo from '../img/footer-logo.svg';
+import footerLogo from '../img/footer-logo.png';
 
 function Footer() {
   return (

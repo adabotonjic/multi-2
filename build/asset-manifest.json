@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.44e81951.css",
+    "main.js": "/static/js/main.9fe3b2ff.js",
+    "static/js/787.256f9a01.chunk.js": "/static/js/787.256f9a01.chunk.js",
+    "static/media/chi-sono.webp": "/static/media/chi-sono.efcb7d25cfb64a3130c4.webp",
+    "static/media/zanzariera31.webp": "/static/media/zanzariera31.a12d0e75546246951697.webp",
+    "static/media/conversioni.webp": "/static/media/conversioni.e27d14b2e680eaa74532.webp",
+    "static/media/Basculante3.webp": "/static/media/Basculante3.4d821cd79a1637033130.webp",
+    "static/media/Basculante2.webp": "/static/media/Basculante2.5ce7a9cd08bd0619d42e.webp",
+    "static/media/zanzariera21.webp": "/static/media/zanzariera21.ea127d3434c58f4b7ea7.webp",
+    "static/media/HeaderGhiga.webp": "/static/media/HeaderGhiga.72bf39c8c679e0adfe9e.webp",
+    "static/media/marche-serrature.webp": "/static/media/marche-serrature.45b8eafc431e3145590d.webp",
+    "static/media/footer-logo.png": "/static/media/footer-logo.bc1bf5cdea38386bfc99.png",
+    "static/media/zanzariera11.webp": "/static/media/zanzariera11.bb5ab4889dcbd956bfc8.webp",
+    "static/media/Furgone.webp": "/static/media/Furgone.5265c7fb04a586e313fc.webp",
+    "static/media/Basculante1.webp": "/static/media/Basculante1.0aac46a8e56cec0ab0eb.webp",
+    "static/media/zanzariera.webp": "/static/media/zanzariera.0dae19c2c9ee64bc3292.webp",
+    "static/media/lucchetto.webp": "/static/media/lucchetto.727b68a23f6ac3bd02c1.webp",
+    "static/media/riparazioni.webp": "/static/media/riparazioni.b7e10a517df20b4446e7.webp",
+    "index.html": "/index.html",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.cd3d7aa12d58a86aca6b.svg",
+    "static/media/map-marked-alt.svg": "/static/media/map-marked-alt.990a02c424de6e1a22d6.svg",
+    "static/media/envelope.svg": "/static/media/envelope.c5ad3049ca0e848465ff.svg",
+    "static/media/mobile.svg": "/static/media/mobile.1a9c745d5bbe950e1f9a.svg",
+    "static/media/mobile-alt.svg": "/static/media/mobile-alt.fc8db950b6de2b7647d5.svg",
+    "main.44e81951.css.map": "/static/css/main.44e81951.css.map",
+    "main.9fe3b2ff.js.map": "/static/js/main.9fe3b2ff.js.map",
+    "787.256f9a01.chunk.js.map": "/static/js/787.256f9a01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44e81951.css",
+    "static/js/main.9fe3b2ff.js"
+  ]
+}
