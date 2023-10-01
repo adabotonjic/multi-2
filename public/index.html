@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <!--<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />-->
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <!--IUB-COOKIE-SKIP-START--><script type="text/javascript">
+        var _iub = _iub || [];
+        _iub.csConfiguration = {
+            "gdprAppliesGlobally":false,
+            "enableCcpa":true,
+            "countryDetection":true,
+            "preferenceCookie":{"expireAfter":90},
+            "perPurposeConsent":true,
+            "purposes":"1, 4, 5",
+            "whitelabel":false,
+            "lang":"it",
+            "siteId":1057047,  // CAMBIAMI
+            "floatingPreferencesButtonDisplay":false,
+            "consentOnContinuedBrowsing":true,
+            "cookiePolicyId":18645684,  // CAMBIAMI
+            "footer":{},
+            "cookiePolicyInOtherWindow":false,
+            "banner":{ 
+                "brandBackgroundColor":"#fff",  // CAMBIAMI sono il bg del logo
+                "brandTextColor":"#000",
+                "logo":"https://www.ghirardellinicola.it/wp-content/uploads/2019/11/Logo-Ghiga-Pronto-Intervento.png",  // CAMBIAMI sono il logo
+                "acceptButtonDisplay":true,
+                "customizeButtonDisplay":true,
+                "acceptButtonColor":"#999", // CAMBIAMI sono pulsante accetta
+                "acceptButtonCaptionColor":"white",
+                "customizeButtonColor":"#DADADA",
+                "customizeButtonCaptionColor":"#4D4D4D",
+                "rejectButtonDisplay":true,
+                "rejectButtonColor":"#999",  // CAMBIAMI sono il pulsante rifiuta
+                "rejectButtonCaptionColor":"white",
+                "position":"float-center",
+                "backgroundOverlay":true,
+                "textColor":"black",
+                "backgroundColor":"#ffffff",
+                "slideDown":false,
+                "prependOnBody":false 
+            },
+            "callback":{
+            onPreferenceExpressedOrNotNeeded: function(preference) {
+                dataLayer.push({
+                    iubenda_ccpa_opted_out: _iub.cs.api.isCcpaOptedOut()
+                });
+                if (!preference) {
+                    dataLayer.push({
+                        event: "iubenda_preference_not_needed"
+                    });
+                } else {
+                    if (preference.consent === true) {
+                        dataLayer.push({
+                            event: "iubenda_consent_given"
+                        });
+                    } else if (preference.consent === false) {
+                        dataLayer.push({
+                            event: "iubenda_consent_rejected"
+                        });
+                    } else if (preference.purposes) {
+                        for (var purposeId in preference.purposes) {
+                            if (preference.purposes[purposeId]) {
+                                dataLayer.push({
+                                    event: "iubenda_consent_given_purpose_" + purposeId
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        };
+        </script>
+        <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+<style>
+#iubenda-iframe .purposes-top-right .iub-iframe-brand-button{
+display:none !important;
+}
+#iubenda-iframe #iubFooterBtnContainer button#iubFooterBtn{
+    background-color: #999!important;  // CAMBIAMI sono il l pulsante salva del personalizza
+}
+ #iubenda-cs-banner .iubenda-cs-content .iubenda-cs-brand img {
+    max-width: 100%!important;
+}
+#iubenda-cs-banner .iubenda-cs-container .iubenda-banner-content.iubenda-custom-content #iubenda-cs-title,
+#iubenda-cs-banner .iubenda-cs-container .iubenda-banner-content.iubenda-custom-content .iub-p{
+text-align:center !important;
+}
+@media (min-width:800px){
+#iubenda-iframe-content #purposes-content-container h1.purposes-header-title{
+font-size: 24px!important;
+}
+}
+</style>
+
+			<script>
+				var iCallback = function() {};
+				var _iub = _iub || {};
+
+				if ( typeof _iub.csConfiguration != 'undefined' ) {
+					if ( 'callback' in _iub.csConfiguration ) {
+						if ( 'onConsentGiven' in _iub.csConfiguration.callback )
+							iCallback = _iub.csConfiguration.callback.onConsentGiven;
+
+						_iub.csConfiguration.callback.onConsentGiven = function() {
+							iCallback();
+
+							/* separator */
+							jQuery('noscript._no_script_iub').each(function (a, b) { var el = jQuery(b); el.after(el.html()); });
+						}
+					}
+				}
+			</script><!--IUB-COOKIE-SKIP-END--><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+
+    <title>Ghirardelli Nicola - Porte blindate, Serrature, Basculanti</title>
+    <meta name="description" content="Con un'esperienza consolidata in 25 anni di attività concentrata in servizi efficaci e tempestivi, fornisco interventi qualificati relativi a: porte, cancelli, serrande basculanti, serrature di vecchia e nuova generazione." />
+    <link rel="canonical" href="https://www.ghirardellinicola.it/" />
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ghirardelli Nicola - Porte blindate, Serrature, Basculanti" />
+    <meta property="og:description" content="Con un'esperienza consolidata in 25 anni di attività concentrata in servizi efficaci e tempestivi, fornisco interventi qualificati relativi a: porte, cancelli, serrande basculanti, serrature di vecchia e nuova generazione." />
+    <meta property="og:url" content="https://www.ghirardellinicola.it/" />
+    <meta property="og:site_name" content="Ghirardelli Nicola" />
+    <meta property="article:publisher" content="https://www.facebook.com/GhirardelliNicolaFabbro" />
+    <meta property="article:modified_time" content="2022-01-23T17:05:21+00:00" />
+    <meta property="og:image" content="https://www.ghirardellinicola.it/wp-content/uploads/2022/01/Furgone.jpg" />
+    <meta property="og:image:width" content="697" />
+    <meta property="og:image:height" content="500" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <div id="root"></div>
+
+  </body>
+</html>
