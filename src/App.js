@@ -14,6 +14,7 @@ import ZanzarierePage from './pages/ZanzarierePage';
 import RiparazioniPage from './pages/RiparazioniPage';
 import SostituzioniPage from './pages/SostituzioniPage';
 import PrivacyCookiePolicy from './pages/PrivacyCookiesPolicy';
+import IubendaCookieBanner from './components/IubendaCookieBanner';
 
 
 const App = () => {
@@ -65,6 +66,7 @@ const App = () => {
           &uarr;
         </button>
       </div>
+      <IubendaCookieBanner />
       </>
   );
 };
