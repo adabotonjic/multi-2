@@ -34,7 +34,7 @@ function Footer() {
               E-mail: <a href="mailto:info@ghirardellinicola" className='text-undeline pb-3'>info@ghirardellinicola.it</a><br></br>
               WhatsApp: <a title="Scrivimi via WhatsApp" href="https://wa.me/+393486723145" target="_blank" rel="noreferrer">+393486723145</a><br></br>
               <br></br>
-              <a href="http://localhost:3001/privacy-cookie-policy" title="Privacy e Cookie Policy">Privacy - Cookie Policy</a><br></br>
+              <a href="/privacy-cookie-policy" title="Privacy e Cookie Policy">Privacy - Cookie Policy</a><br></br>
               <button href="#"  className="iubenda-cs-preferences-link p-0">Preferenze cookie</button>
               </div>
             </div>
