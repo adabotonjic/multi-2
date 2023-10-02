@@ -5,6 +5,7 @@ import riparazioni2 from '../components/img/Basculante2.webp';
 import riparazioni3 from '../components/img/Basculante3.webp';
 
 const RiparazioniPage = () => {
+  const homeBase = 'https://ghiga-react.netlify.app/#contatti';
   return (
     <main className="page-riparazioni">
       <div className="page-title-wrap mb-0 mb-xl-3">
@@ -64,7 +65,7 @@ const RiparazioniPage = () => {
             <p>Con l’installazione di <strong>zanzariere ai serramenti</strong> potrete eliminare dalla vostra abitazione la fastidiosa presenza di zanzare e altri insetti.</p>
             <p><strong>Contattami per un intervento, un sopralluogo o per un preventivo,&nbsp;sarò a vostra disposizione con cordialità e professionalità.</strong></p>
 
-            <p><a className="text-white text-decoration-none main-btn fw-bold py-2 px-3 mt-5 mb-3" href="#chiedi-preventivo">Chiedi preventivo</a></p>
+            <p><a className="text-white text-decoration-none main-btn fw-bold py-2 px-3 mt-5 mb-3" href={homeBase}>Chiedi preventivo</a></p>
             <br></br>
             </div>
         </div>

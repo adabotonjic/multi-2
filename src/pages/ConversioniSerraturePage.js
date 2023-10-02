@@ -3,6 +3,7 @@ import Figure from 'react-bootstrap/Figure';
 import conversioni from '../components/img/conversioni.webp';
 
 const ConversioniSerraturePage = () => {
+  const homeBase = 'https://ghiga-react.netlify.app/#contatti';
   return (
     <main className="page-conversioni">
       <div className="page-title-wrap mb-0 mb-xl-3">
@@ -38,7 +39,7 @@ const ConversioniSerraturePage = () => {
 
             <p><strong>Contattaci per un intervento o per info, sarò a vostra disposizione con cordialità e professionalità.</strong> E per le situazioni urgenti non esitate a utilizzare il mio servizio di <strong>pronto intervento.</strong></p>
 
-            <p><a className="text-white text-decoration-none main-btn fw-bold py-2 px-3 mt-5 mb-3" href="#chiedi-preventivo">Chiedi preventivo</a></p>
+            <p><a className="text-white text-decoration-none main-btn fw-bold py-2 px-3 mt-5 mb-3" href={homeBase}>Chiedi preventivo</a></p>
             <br></br>
             </div>
         </div>

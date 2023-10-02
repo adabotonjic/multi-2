@@ -60,9 +60,10 @@ body{
   font-weight: 500;
 }
 .navbar-nav .dropdown-menu .dropdown-item.active,
-.dropdown-item:active{
+.navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar-nav .dropdown-menu .dropdown-item:active{
   color:#FDB615 !important;
-  background-color: transparent;
+  background-color: var(--bs-dropdown-link-hover-bg);
 }
 
 
@@ -74,10 +75,11 @@ body{
   }
   .navbar-expand-sm .navbar-nav .dropdown-menu{
     width: 370px;
-    top: 60px;
+    top: 56px;
     left: 18px;
     border-radius: 0;
     box-shadow: 0 4px 8px rgba(0,0,0,.2);
+    border-top: 4px solid #fdb614;
   }
   .navbar-nav .dropdown-menu .dropdown-item{
     border:0;
